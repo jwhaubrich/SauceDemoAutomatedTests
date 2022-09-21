@@ -68,11 +68,8 @@ This project was developed to perform several simple end-to-end automated tests 
 
 ### Built With
 
-* [Java 8: Version 1.8.0_301 ](https://java.com/en/)
-* [Gradle: Version 7.4.2](https://gradle.org/)
-* [Groovy: Version 3.0.9](https://groovy-lang.org/)
-* [Ant: Version 1.10.11](https://ant.apache.org/)
-* [JVM: Version 1.8.0_301](https://www.java.com/en/)
+* [Visual Studio Code: Version 1.71.2](https://code.visualstudio.com/)
+* [Playwright: Version 1.24.0](https://playwright.dev/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
