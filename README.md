@@ -78,20 +78,20 @@ This project was developed to perform several simple end-to-end automated tests 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-First, we'll need to copy this repo to your machine, then running the application by creating a jar file. Please see the instructions that follow:
+First, we'll need to copy this repo to your machine, then open the project with Visual Studio Code:
 
 
-### Running the Program
+### Opening and Running the Program
 
 1. Clone the repo
    ```sh
    git clone https://github.com/jwhaubrich/SauceDemoAutomatedTests
    ```
-2. Navigate to the local directory where the repo is located on your machine.
-3. Run the Simple Calculator program with:
-   ```sh
-   ./gradlew run
-   ```
+2. Open up Visual Studio Code 
+3. When prompted, navigate to the folder where the repo is located
+4. Open the entire SauceDemoAutomatedTests folder with Visual Studio Code
+5. Edit the project as you wish!
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
