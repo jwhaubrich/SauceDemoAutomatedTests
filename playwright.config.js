@@ -8,8 +8,8 @@ const config = {
     //above is used for setting the base URL needed if you don't want to keep writing out the entire URL within tests
 
     reporter: [
-      //['list'], //used for displaying the test name and showing the status if the test passed or not
-      ['dot'], //used showing dots as progression as the tests pass/fail
+      ['list'], //used for displaying the test name and showing the status if the test passed or not
+      //['dot'], //used showing dots as progression as the tests pass/fail
       ['allure-playwright', {
         detail: true,
         outputFolder: 'my-allure-results',
