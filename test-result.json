@@ -1,0 +1,386 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": "C:\\Users\\jwhau\\Documents\\ApplicationsImLearning\\Playwright\\Playwright\\SwagLabsCompleteTestSuite\\global-setup.js",
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/jwhau/Documents/ApplicationsImLearning/Playwright/Playwright/SwagLabsCompleteTestSuite/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "",
+        "testDir": "C:/Users/jwhau/Documents/ApplicationsImLearning/Playwright/Playwright/SwagLabsCompleteTestSuite",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-result.json"
+        }
+      ],
+      [
+        "C:\\Users\\jwhau\\Documents\\ApplicationsImLearning\\Playwright\\Playwright\\SwagLabsCompleteTestSuite\\node_modules\\allure-playwright\\dist\\index.js",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "C:/Users/jwhau/Documents/ApplicationsImLearning/Playwright/Playwright/SwagLabsCompleteTestSuite",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.24.0",
+    "workers": 4,
+    "webServer": null,
+    "_webServers": [],
+    "_globalOutputDir": "C:\\Users\\jwhau\\Documents\\ApplicationsImLearning\\Playwright\\Playwright\\SwagLabsCompleteTestSuite",
+    "_configDir": "C:\\Users\\jwhau\\Documents\\ApplicationsImLearning\\Playwright\\Playwright\\SwagLabsCompleteTestSuite",
+    "_testGroupsCount": 9
+  },
+  "suites": [
+    {
+      "title": "tests\\homepage_functionality\\add_items_to_cart.spec.ts",
+      "file": "tests/homepage_functionality/add_items_to_cart.spec.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "Adding Items to Cart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 2361,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "tests/homepage_functionality/add_items_to_cart.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tests\\homepage_functionality\\burger_menu_operation.spec.ts",
+      "file": "tests/homepage_functionality/burger_menu_operation.spec.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "Burger Menu is Operational",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 4928,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "tests/homepage_functionality/burger_menu_operation.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tests\\homepage_functionality\\dropdown_menu_product_sorting.spec.ts",
+      "file": "tests/homepage_functionality/dropdown_menu_product_sorting.spec.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "Sorting Products is Successful",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 2192,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "tests/homepage_functionality/dropdown_menu_product_sorting.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tests\\homepage_functionality\\remove_items_from_cart.spec.ts",
+      "file": "tests/homepage_functionality/remove_items_from_cart.spec.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "Remove Items from Cart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 2134,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "tests/homepage_functionality/remove_items_from_cart.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tests\\login_functionality\\locked_out_user.spec.ts",
+      "file": "tests/login_functionality/locked_out_user.spec.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 883,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "tests/login_functionality/locked_out_user.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tests\\login_functionality\\performance_glitch_user.spec.ts",
+      "file": "tests/login_functionality/performance_glitch_user.spec.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 805,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "tests/login_functionality/performance_glitch_user.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tests\\login_functionality\\problem_user.spec.ts",
+      "file": "tests/login_functionality/problem_user.spec.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 790,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "tests/login_functionality/problem_user.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tests\\login_functionality\\standard_user.spec.ts",
+      "file": "tests/login_functionality/standard_user.spec.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "Successful log in to SwagLabs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 960,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "tests/login_functionality/standard_user.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tests\\successful_product_purchase\\successful_purchase.spec.ts",
+      "file": "tests/successful_product_purchase/successful_purchase.spec.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "Successful Product Purchase",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 1259,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "tests/successful_product_purchase/successful_purchase.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
