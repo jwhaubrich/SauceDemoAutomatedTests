@@ -12,7 +12,7 @@ test('Successful Product Purchase', async ({ page }) => {
 
   await page.locator('[data-test="checkout"]').click();
   await expect(page).toHaveURL('https://www.saucedemo.com/checkout-step-one.html');
-]
+
   await page.locator('[data-test="firstName"]').click();
 
   await page.locator('[data-test="firstName"]').fill('Joe');

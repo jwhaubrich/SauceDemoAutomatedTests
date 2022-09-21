@@ -11,7 +11,7 @@ test('Successful log in to SwagLabs', async ({ page }) => {
   await page.locator('[data-test="password"]').click();
 
   await page.locator('[data-test="password"]').fill('secret_sauce');
-]
+
   await page.locator('[data-test="login-button"]').click();
   await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html');
  
